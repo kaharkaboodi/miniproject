@@ -1,0 +1,52 @@
+div{
+    width: 80%;
+    height: 225px;
+    margin:  30vh auto;
+    border: 2px skyblue solid;
+    box-shadow:0px 0px 10px 6px  rgba(115, 190, 219, 0.397);
+    overflow: hidden;
+
+}
+div img{
+    width: 120%;
+    height: 120%;
+    transition: all 1s ease-in-out;
+    object-fit: cover;
+    transform: scale(0.9) translateX(-40px) translateY(-30px);
+}
+div img:hover{
+    transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* div{
+    width: 80%;
+    height: 225px;
+    margin: 25vh auto;border: 2px skyblue solid;
+    box-shadow:0px 0px 10px 6px  rgba(115, 190, 219, 0.397);
+    overflow: hidden;
+}
+div img{
+    width: 120%;
+    height: 120%;
+    transition:0.5s all ease-in-out;
+    object-fit: cover;
+    transform: translateX(-40px) translateY(-25px) scale(.9);
+       
+}
+div img:hover{
+    transform: scale(1) ;
+
+
+} */
